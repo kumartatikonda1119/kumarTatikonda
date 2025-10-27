@@ -1,0 +1,128 @@
+
+
+#projects {
+  background: #080808;
+  color: #fff;
+  padding: 60px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.subtitle {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.project-card {
+  background: #181818;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(222, 219, 71, 0.08);
+  padding: 32px 24px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  word-break: break-word;
+}
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 40px rgba(222, 219, 71, 0.18);
+}
+.project-img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin-bottom: 18px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: block;
+}
+.project-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #dee41f;
+  text-align: center;
+}
+.project-desc {
+  font-size: 1.05em;
+  margin-bottom: 18px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.tech-stack {
+  margin-bottom: 18px;
+  text-align: center;
+}
+.tech-badge {
+  display: inline-block;
+  background: #262626;
+  color: #dee41f;
+  font-size: 0.95em;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin-right: 8px;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+.project-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.btn-project {
+  background: #dee41f;
+  color: #222;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(19, 183, 229, 0.08);
+  display: inline-block;
+}
+.btn-project:hover {
+  background: #dedb47;
+  color: #181818;
+  box-shadow: 0 4px 16px rgba(222, 219, 71, 0.18);
+}
+.btn-project.btn-outline {
+  background: transparent;
+  color: #dee41f;
+  border: 2px solid #dee41f;
+}
+.btn-project.btn-outline:hover {
+  background: #dee41f;
+  color: #222;
+}
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .project-card {
+    padding: 18px 8px;
+  }
+  .project-img {
+    width: 56px;
+    height: 56px;
+  }
+}

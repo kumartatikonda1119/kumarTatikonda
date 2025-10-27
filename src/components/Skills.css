@@ -1,0 +1,120 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin: 32px 0;
+}
+.subtitle {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skill-category {
+  background: #262626;
+  border-radius: 12px;
+  padding: 24px 18px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+  color: #dee41f;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category ul li {
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 8px;
+  padding-left: 0;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .skill-category {
+    padding: 16px 8px;
+  }
+}
+#skills-arsenal {
+  margin: 60px 0;
+}
+
+.arsenal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.arsenal-box {
+  background: #111;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  min-width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+.arsenal-box:hover {
+  border: 2px solid #dee41f;
+}
+.arsenal-box h2 {
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.arsenal-icons {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.arsenal-icons img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  background: #222;
+  border-radius: 8px;
+  padding: 6px;
+  transition: transform 0.2s;
+}
+
+.arsenal-icons img:hover {
+  transform: scale(1.15);
+  background: #dee41f;
+}
+
+@media only screen and (max-width: 900px) {
+  .arsenal-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .arsenal-box {
+    min-width: unset;
+    padding: 24px 8px;
+  }
+  .arsenal-icons img {
+    width: 38px;
+    height: 38px;
+    padding: 4px;
+  }
+}
