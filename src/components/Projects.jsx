@@ -44,8 +44,8 @@ function Projects() {
       desc: "A simple chatbot built with React that can flip a coin, roll a die, and tell today's date using predefined responses.",
       img: robot,
       tech: ["React", "JavaScript", "CSS"],
-      live: "https://your-chatbot-link.com/",
-      code: "https://github.com/kumartatikonda1119/Utility-Chatbot",
+      live: "https://thebatchat.onrender.com/",
+      code: "https://github.com/kumartatikonda1119/TheChatBot",
     },
     {
       id: 3,
