@@ -7,7 +7,7 @@ This is my personal portfolio website built using **React**, where I showcase my
 ## 🧰 Tech Stack
 
 - **Frontend:** React, JavaScript, HTML, CSS
-- **Styling:** Tailwind CSS *(if not used, remove this line)*
+- **Styling:**  CSS 
 - **Version Control:** Git & GitHub
 - **Deployment:** (Add where you deployed it: GitHub Pages / Vercel / Netlify)
 
