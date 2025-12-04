@@ -1,7 +1,5 @@
 import React from "react";
 import "./Projects.css";
-
-// Import images
 import levelupdev from "../assets/levelupdev.png";
 import weather from "../assets/weather.png";
 import calculator from "../assets/calculator.jpg";
@@ -9,11 +7,19 @@ import todolist from "../assets/todolist.jpg";
 import stopwatch from "../assets/stopwatch.jpg";
 import movie from "../assets/movie.jpg";
 import finmate from "../assets/finmate.png";
-import lottery from "../assets/lottery.webp";
 import youtube from "../assets/youtube.png";
-
+import robot from "../assets/robot.png";
 function Projects() {
   const projects = [
+    {
+      id: 4,
+      title: "ToDo List",
+      desc: "A full-stack ToDo application built using the MERN stack, allowing users to create, update, and manage tasks efficiently with persistent storage.",
+      img: todolist,
+      tech: ["MongoDB", "Express.js", "React", "Node.js"],
+      live: "coming soon...",
+      code: "https://github.com/kumartatikonda1119/TheToDoList",
+    },
     {
       id: 1,
       title: "Level Up Dev",
@@ -33,6 +39,15 @@ function Projects() {
       code: "https://github.com/kumartatikonda1119/TheWeatherApp",
     },
     {
+      id: 10,
+      title: "Utility Chatbot",
+      desc: "A simple chatbot built with React that can flip a coin, roll a die, and tell today's date using predefined responses.",
+      img: robot,
+      tech: ["React", "JavaScript", "CSS"],
+      live: "https://your-chatbot-link.com/",
+      code: "https://github.com/kumartatikonda1119/Utility-Chatbot",
+    },
+    {
       id: 3,
       title: "Calculator",
       desc: "A simple and responsive calculator for basic arithmetic operations.",
@@ -41,15 +56,6 @@ function Projects() {
       live: "https://kumartatikonda1119.github.io/The-Calculator/",
       code: "https://github.com/kumartatikonda1119/The-Calculator",
     },
-    // {
-    //   id: 4,
-    //   title: "ToDo List",
-    //   desc: "Organize your tasks efficiently with this interactive ToDo List app.",
-    //   img: todolist,
-    //   tech: ["HTML", "CSS", "JavaScript"],
-    //   live: "https://kumartatikonda1119.github.io/TheTodoList/",
-    //   code: "https://github.com/kumartatikonda1119/TheTodoList",
-    // },
     {
       id: 5,
       title: "Stop Watch",
