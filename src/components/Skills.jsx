@@ -48,7 +48,7 @@ function Skills() {
               <img src={sql} alt="MySQL" />
             </div>
           </div>
-          <div className="arsenal-box">
+          <div className="arsenal-box" data-aos="zoom-in">
             <h2>Tools</h2>
             <div className="arsenal-icons">
               <img src={git} alt="Git" />
