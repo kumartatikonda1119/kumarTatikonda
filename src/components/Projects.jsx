@@ -17,7 +17,7 @@ function Projects() {
       desc: "A full-stack ToDo application built using the MERN stack, allowing users to create, update, and manage tasks efficiently with persistent storage.",
       img: todolist,
       tech: ["MongoDB", "Express.js", "React", "Node.js"],
-      live: "coming soon...",
+      live: "https://thetodolist.onrender.com",
       code: "https://github.com/kumartatikonda1119/TheToDoList",
     },
     {
