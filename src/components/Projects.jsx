@@ -30,6 +30,23 @@ function Projects() {
       code: "https://github.com/kumartatikonda1119/LevelUpDev",
     },
     {
+      id: 6,
+      title: "Movie Review Analysis",
+      desc: "Analyze and visualize movie reviews using sentiment analysis and interactive visual dashboards.",
+      img: movie,
+      tech: [
+        "Python",
+        "Flask",
+        "Pandas",
+        "NLP",
+        "Scikit-Learn",
+        "React",
+        "Chart.js",
+      ],
+      live: "https://moviereviewanalysis.onrender.com/",
+      code: "https://github.com/kumartatikonda1119/ReviewAnalysis",
+    },
+    {
       id: 2,
       title: "Weather App",
       desc: "A simple weather app that fetches real-time weather data using OpenWeather API.",
@@ -65,23 +82,7 @@ function Projects() {
       live: "https://kumartatikonda1119.github.io/TheStopWatch/",
       code: "https://github.com/kumartatikonda1119/TheStopWatch",
     },
-    {
-      id: 6,
-      title: "Movie Review Analysis",
-      desc: "Analyze and visualize movie reviews using sentiment analysis and interactive visual dashboards.",
-      img: movie,
-      tech: [
-        "Python",
-        "Flask",
-        "Pandas",
-        "NLP",
-        "Scikit-Learn",
-        "React",
-        "Chart.js",
-      ],
-      live: "https://moviereviewanalysis.onrender.com/",
-      code: "https://github.com/kumartatikonda1119/ReviewAnalysis",
-    },
+
     {
       id: 7,
       title: "FinMate",

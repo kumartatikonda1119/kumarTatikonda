@@ -14,6 +14,7 @@ import sql from "../assets/sql.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import vscode from "../assets/vscode.png";
+import mongodb from "../assets/mongodb.png";
 import "./Skills.css";
 function Skills() {
   return (
@@ -46,6 +47,7 @@ function Skills() {
               <img src={nodejs} alt="Node.js" />
               <img src={express} alt="Express.js" />
               <img src={sql} alt="MySQL" />
+              <img src={mongodb} alt="MongoDB" />
             </div>
           </div>
           <div className="arsenal-box" data-aos="zoom-in">
