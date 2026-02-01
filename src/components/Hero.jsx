@@ -26,7 +26,7 @@ function Hero() {
                 <i className="fa-brands fa-instagram"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/kumar-tatikonda-511180291/"
+                href="https://www.linkedin.com/in/kumartatikonda"
                 target="_blank"
               >
                 <i className="fa-brands fa-linkedin"></i>

@@ -15,7 +15,7 @@ function Contact() {
       .then((response) => {
         setMsg("Message Sent Successfully");
         setTimeout(() => setMsg(""), 5000);
-        e.target.reset(); // reset form
+        e.target.reset();
       })
       .catch((error) => {
         console.error("Error!", error.message);
