@@ -42,7 +42,7 @@ function Contact() {
                 <i className="fa-brands fa-instagram"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/kumar-tatikonda-511180291/"
+                href="https://www.linkedin.com/in/kumarTatikonda"
                 target="_blank"
                 rel="noreferrer"
               >
