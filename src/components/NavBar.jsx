@@ -6,7 +6,7 @@ function NavBar() {
       <nav className="main-nav" data-aos="fade-down">
         <div className="nav-brand">
           <span className="highlight">K</span>
-          umar!
+          umar!!
         </div>
         <button className="menu-btn" id="menu-btn">
           <i className="fa-solid fa-bars"></i>

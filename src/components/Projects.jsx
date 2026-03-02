@@ -9,8 +9,18 @@ import movie from "../assets/movie.jpg";
 import finmate from "../assets/finmate.png";
 import youtube from "../assets/youtube.png";
 import robot from "../assets/robot.png";
+import chitram from "../assets/film-icon.svg";
 function Projects() {
   const projects = [
+    {
+      id: 10,
+      title: "Chitram",
+      desc: "Chitram is a personalized cinema discovery platform built for movie lovers who want more than just ratings. ",
+      img: chitram,
+      tech: ["MongoDB", "Express.js", "React", "Node.js"],
+      live: "https://chitram.onrender.com",
+      code: "https://github.com/kumartatikonda1119/chitram",
+    },
     {
       id: 4,
       title: "ToDo List",
@@ -23,7 +33,7 @@ function Projects() {
     {
       id: 1,
       title: "Level Up Dev",
-      desc: "A personal portfolio website showcasing my work and skills.",
+      desc: "an interactive web platform featuring categorized web development challenges(easy, medium, hard) using pure HTML, CSS, and JavaScript under a no-framework constraint.",
       img: levelupdev,
       tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
       live: "https://level-updev.netlify.app/",
