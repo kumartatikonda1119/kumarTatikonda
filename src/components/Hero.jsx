@@ -37,7 +37,7 @@ function Hero() {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1G6Eqr-Ykggk4JiXS94067ydK7sAkX1Tb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1M__KRslfpZf4huHtd6Ov3UVFP2RHbqKo/view?usp=sharing"
               target="_blank"
               className="btn-resume"
             >
